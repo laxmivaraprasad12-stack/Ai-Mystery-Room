@@ -1,0 +1,126 @@
+
+> ai-mystery-room@1.0.0 dev
+> concurrently -k -n api,web -c cyan,magenta "npm run dev -w server" "npm run dev -w client"
+
+[api] 
+[api] > @mystery-room/server@1.0.0 dev
+[api] > tsx watch src/index.ts
+[api] 
+[web] 
+[web] > @mystery-room/client@1.0.0 dev
+[web] > vite
+[web] 
+[web] Port 5173 is in use, trying another one...
+[web] 
+[web]   VITE v6.4.5  ready in 1571 ms
+[web] 
+[web]   ➜  Local:   http://localhost:5174/
+[web]   ➜  Network: use --host to expose
+[api] node:events:505
+[api]     throw er; // Unhandled 'error' event
+[api]     ^
+[api] 
+[api] Error: listen EADDRINUSE: address already in use 0.0.0.0:4000
+[api]     at Server.setupListenHandle [as _listen2] (node:net:2390:16)
+[api]     at listenInCluster (node:net:2499:12)
+[api]     at node:net:2728:7
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[api] Emitted 'error' event on Server instance at:
+[api]     at emitErrorNT (node:net:2478:8)
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[api]   code: 'EADDRINUSE',
+[api]   errno: -4091,
+[api]   syscall: 'listen',
+[api]   address: '0.0.0.0',
+[api]   port: 4000
+[api] }
+[api] 
+[api] Node.js v26.13.0
+[api] 12:06:00 AM [tsx] change in ./src\gemini.ts Rerunning...
+[api] Mystery Room API listening on port 4000
+[api] 12:11:28 AM [tsx] change in ./src\gemini.ts Restarting...
+[api] Mystery Room API listening on port 4000
+[api] 12:11:42 AM [tsx] change in ./src\index.ts Restarting...
+[api] node:events:505
+[api]     throw er; // Unhandled 'error' event
+[api]     ^
+[api] 
+[api] Error: listen EADDRINUSE: address already in use 0.0.0.0:4000
+[api]     at Server.setupListenHandle [as _listen2] (node:net:2390:16)
+[api]     at listenInCluster (node:net:2499:12)
+[api]     at node:net:2728:7
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[api] Emitted 'error' event on Server instance at:
+[api]     at emitErrorNT (node:net:2478:8)
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[api]   code: 'EADDRINUSE',
+[api]   errno: -4091,
+[api]   syscall: 'listen',
+[api]   address: '0.0.0.0',
+[api]   port: 4000
+[api] }
+[api] 
+[api] Node.js v26.13.0
+[api] 12:22:09 AM [tsx] change in ./src\gemini.ts Rerunning...
+[api] node:events:505
+[api]     throw er; // Unhandled 'error' event
+[api]     ^
+[api] 
+[api] Error: listen EADDRINUSE: address already in use 0.0.0.0:4000
+[api]     at Server.setupListenHandle [as _listen2] (node:net:2390:16)
+[api]     at listenInCluster (node:net:2499:12)
+[api]     at node:net:2728:7
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[api] Emitted 'error' event on Server instance at:
+[api]     at emitErrorNT (node:net:2478:8)
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[api]   code: 'EADDRINUSE',
+[api]   errno: -4091,
+[api]   syscall: 'listen',
+[api]   address: '0.0.0.0',
+[api]   port: 4000
+[api] }
+[api] 
+[api] Node.js v26.13.0
+[api] 12:25:58 AM [tsx] change in ./src\gemini.ts Rerunning...
+[api] node:events:505
+[api]     throw er; // Unhandled 'error' event
+[api]     ^
+[api] 
+[api] Error: listen EADDRINUSE: address already in use 0.0.0.0:4000
+[api]     at Server.setupListenHandle [as _listen2] (node:net:2390:16)
+[api]     at listenInCluster (node:net:2499:12)
+[api]     at node:net:2728:7
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[api] Emitted 'error' event on Server instance at:
+[api]     at emitErrorNT (node:net:2478:8)
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[api]   code: 'EADDRINUSE',
+[api]   errno: -4091,
+[api]   syscall: 'listen',
+[api]   address: '0.0.0.0',
+[api]   port: 4000
+[api] }
+[api] 
+[api] Node.js v26.13.0
+[api] 12:26:05 AM [tsx] change in ./src\config.ts Rerunning...
+[api] node:events:505
+[api]     throw er; // Unhandled 'error' event
+[api]     ^
+[api] 
+[api] Error: listen EADDRINUSE: address already in use 0.0.0.0:4000
+[api]     at Server.setupListenHandle [as _listen2] (node:net:2390:16)
+[api]     at listenInCluster (node:net:2499:12)
+[api]     at node:net:2728:7
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[api] Emitted 'error' event on Server instance at:
+[api]     at emitErrorNT (node:net:2478:8)
+[api]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[api]   code: 'EADDRINUSE',
+[api]   errno: -4091,
+[api]   syscall: 'listen',
+[api]   address: '0.0.0.0',
+[api]   port: 4000
+[api] }
+[api] 
+[api] Node.js v26.13.0
